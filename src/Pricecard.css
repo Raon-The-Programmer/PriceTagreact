@@ -1,0 +1,62 @@
+
+
+.app {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 1em;
+    justify-content: space-around;
+    background:linear-gradient(120deg,rgb(17, 114, 199),rgb(41, 41, 136));
+    padding: 3rem 0 2rem 0;
+    margin: 20px;
+  }
+  
+  .price-card {
+    border: 1px solid rgb(255, 254, 254);
+    background-color: #ffffff;
+    border-radius:1.5em;
+    padding: 3rem;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .price-card h2 {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #4a4848;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .price {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+    color: #000000;
+  }
+  
+  .features {
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  .features p {
+    margin: 8px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .button {
+    background-color: #3078c6;
+    color: #fff;
+    padding: 10px 5em 10px 5em;
+    border: none;
+    border-radius: 5em;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+ 
+.features .unsupported{
+  color: #4a4848;
+}
+
